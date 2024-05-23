@@ -1,0 +1,38 @@
+/* header_styles.css */
+
+/* Estilos generales para el header */
+nav {
+    background-color: #333; /* Color de fondo del header */
+    color: #fff; /* Color del texto del header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para los enlaces del menú */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos del menú */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Aplica negrita al texto */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 100px; /* Reduce la altura */
+    width: auto; /* Esto mantendrá la proporción del logo */
+    margin-right: auto; /* Ajusta el margen para posicionar el logo */
+}

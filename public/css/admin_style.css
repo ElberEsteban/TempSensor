@@ -1,0 +1,82 @@
+/* admin_style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333333; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegurarse de que el header esté en la parte superior */
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Contenedor principal */
+.main-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-sizing: border-box;
+    margin: 70px auto 0; /* Ajustar el margen superior para que no se superponga con el header */
+}
+
+/* Estilos para el título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las celdas de la tabla */
+table, th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para la cabecera de la tabla */
+th {
+    background-color: #d7d7d7;
+    font-weight: bold;
+}
+
+/* Estilos para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+/* Estilos para los enlaces de acciones */
+a {
+    color: #007bff; /* Color azul para los enlaces */
+    text-decoration: none;
+}
+
+/* Estilos para el enlace de eliminar */
+.delete-link {
+    color: #ff0000; /* Color rojo para el enlace de eliminar */
+}
+
+/* Cambio de color al pasar el ratón por encima de los enlaces */
+a:hover {
+    text-decoration: underline;
+}

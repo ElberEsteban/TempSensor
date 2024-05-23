@@ -1,0 +1,17 @@
+/* footer_styles.css */
+
+/* Estilos generales para el footer */
+footer {
+    background-color: #333333; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto del footer */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}

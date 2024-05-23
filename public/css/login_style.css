@@ -1,0 +1,109 @@
+/* login_styles.css */
+
+/* Reset básico para estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo de la página */
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto negro */
+}
+
+/* Ajustes para centrar verticalmente el contenedor del formulario de inicio de sesión */
+body {
+    display: flex;
+    flex-direction: column; /* Cambiar dirección a columna */
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido horizontalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilos para el título del sistema de monitoreo */
+.titulo-sistema {
+    font-size: 40px; /* Aumentar tamaño de fuente */
+    text-align: center; /* Centrar texto */
+    margin: 20px 0; /* Añadir margen arriba y abajo */
+}
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+.login-container {
+    width: 100%;
+    max-width: 320px; /* Ancho máximo para dispositivos móviles */
+    padding: 20px;
+    margin-top: 50px; /* Aumentar margen superior para bajar el formulario */
+    background-color: #d7d7d7; /* Fondo gris claro para el formulario */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el título del formulario */
+h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada de texto y contraseña */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd; /* Borde gris claro */
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    background-color: #333333; /* Botón negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el ratón por encima del botón */
+input[type="submit"]:hover {
+    background-color: #555555; /* Botón gris oscuro */
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+    color: #ff0000; /* Texto rojo para errores */
+    margin-bottom: 10px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Aplica negrita al texto */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+

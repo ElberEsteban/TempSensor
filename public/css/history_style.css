@@ -1,0 +1,127 @@
+/* history_style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333333; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegurarse de que el header esté en la parte superior */
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Contenedor principal */
+.main-container {
+    padding-top: 60px; /* Ajustar el padding superior para evitar superposición con el header */
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+#filtro-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    flex: 1 1 48%; /* Flexibilidad para que los grupos ocupen un 48% del ancho y se ajusten en dispositivos pequeños */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Alinear elementos en una fila */
+/* Estilos para las etiquetas de los campos de filtro */
+.form-group label {
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de fuente ajustado */
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+.buttons-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type="submit"],
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%; /* Asegurarse de que los botones ocupen menos ancho */
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de borrar filtro */
+button {
+    background-color: #f44336; /* Botón rojo */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #333333; /* Botón negro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Cambio de color al pasar el ratón por encima del botón */
+input[type="submit"]:hover {
+    background-color: #555555; /* Botón gris oscuro */
+}
+
+button:hover {
+    background-color: #d32f2f; /* Botón rojo oscuro */
+}
+
+/* Contenedor para la tabla */
+#tabla-temperaturas {
+    margin-top: 20px;
+    overflow-x: auto; /* Para permitir el desplazamiento horizontal en tablas anchas */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #d7d7d7;
+    color: black;
+}
